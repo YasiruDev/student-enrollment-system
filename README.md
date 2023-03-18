@@ -47,4 +47,4 @@ Find the DB schema under below folder path
 ### Documents
 
 - [Technical Document](https://docs.google.com/document/d/1dQc2Ny3qC1lUT6iXRFaRsNx0G5WFnjPv70F5xNAHCYE/edit?usp=sharing)
-- [Postman Collection](https://drive.google.com/file/d/1PqzvToeDWLDRMKskj5DthBwaVB3quLOb/view?usp=sharing)
+- [Postman Collection](https://drive.google.com/file/d/1AYCNW7-HXaLUAywsDZ32LXGAEODhOUKC/view?usp=sharing)
