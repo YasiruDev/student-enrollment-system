@@ -1,0 +1,25 @@
+{
+  "moduleFileExtensions": ["ts", "tsx", "js", "json"],
+  "transform": {
+    "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+  },
+  "testRegex": "/src/.*\\.(test|spec).(ts|tsx|js)$",
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx,tsx,ts}",
+    "!**/node_modules/**",
+    "!**/vendor/**"
+  ],
+  "coverageReporters": ["json", "lcov"],
+  "coveragePathIgnorePatterns": [
+    "index.js",
+    ".module.ts",
+    ".helper.ts",
+    "<rootDir>/src/app.controller.ts",
+    "<rootDir>/src/app.service.ts",
+    "<rootDir>/src/app.module.ts",
+    "<rootDir>/src/main.ts",
+    "<rootDir>/src/config/common/common.ts",
+    "<rootDir>/src/config/dto.validation.exception.ts",
+    "<rootDir>/src/interceptors/errors/error.interceptor.ts"
+  ]
+}
